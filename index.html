@@ -22,45 +22,90 @@
     <title>Frontend Mentor | Social links profile</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <main class="container">
-      <div class="avatar">
-        <img src="./assets/images/avatar-jessica.jpeg" alt="" />
-      </div>
+  <body
+    class="flex justify-center min-h-screen items-center font-sans text-[#fafafa] bg-[#18181b]"
+  >
+    <main
+      class="flex justify-center min-h-screen items-center font-sans text-[#fafafa] bg-[#18181b]"
+    >
+      <section
+        class="w-96 h-full max-h-[615px] max-w-96 flex flex-col items-center rounded-lg relative bg-[#1f1f1f] p-3"
+      >
+        <div class="">
+          <img
+            class="rounded-full my-3 mx-0 h-20 w-20 m-0 p-0"
+            src="./assets/images/avatar-jessica.jpeg"
+            alt=""
+          />
+        </div>
 
-      <h1>Jessica Randall</h1>
-      <h2>London, United Kingdom</h2>
-      <h3>"Front-end developer and avid reader."</h3>
-      <ul>
-        <li>
-          <a href="https://github.com/Cheosphere" target="_blank">GitHub</a>
-        </li>
-        <li>
-          <a
-            href="https://www.frontendmentor.io/profile/Cheosphere"
-            target="_blank"
-            >Frontend Mentor</a
-          >
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/eliseoavila/" target="_blank"
-            >LinkedIn</a
-          >
-        </li>
-        <li>
-          <a href="https://twitter.com/" target="_blank">Twitter</a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-        </li>
-      </ul>
+        <h1 class="mb-1 text-[#fafafa] font-medium text-base tracking-wide">
+          Jessica Randall
+        </h1>
+        <h2 class="text-sm mb-7 font-medium tracking-wide text-[#a3e635]">
+          London, United Kingdom
+        </h2>
+        <h3
+          class="tracking-widest text-center text-[#fafafa] font-extralight text-sm mb-4"
+        >
+          "Front-end developer and avid reader."
+        </h3>
+        <ul class="w-full flex flex-col items-center p-0 my-3">
+          <li class="w-full flex justify-center mb-3 text-center list-none">
+            <a
+              href="https://github.com/Cheosphere"
+              target="_blank"
+              class="w-[90%] h-11 flex justify-center text-[#fafafa] font-semibold bg-[#525252] rounded-md items-center hover:bg-[#c9f757] hover:text-[#525252] cursor-pointer"
+              >GitHub</a
+            >
+          </li>
+          <li class="w-full flex justify-center mb-3 text-center list-none">
+            <a
+              href="https://www.frontendmentor.io/profile/Cheosphere"
+              target="_blank"
+              class="w-[90%] h-11 flex justify-center font-semibold bg-[#525252] rounded-md items-center hover:bg-[#c9f757] hover:text-[#525252] cursor-pointer"
+              >Frontend Mentor</a
+            >
+          </li>
+          <li class="w-full flex justify-center mb-3 text-center list-none">
+            <a
+              href="https://www.linkedin.com/in/eliseoavila/"
+              target="_blank"
+              class="w-[90%] h-11 flex justify-center bg-[#525252] rounded-md items-center hover:bg-[#c9f757] hover:text-[#525252] cursor-pointer font-semibold"
+              >LinkedIn</a
+            >
+          </li>
+          <li class="w-full flex justify-center mb-3 text-center list-none">
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              class="w-[90%] h-11 flex justify-center bg-[#525252] rounded-md items-center hover:bg-[#c9f757] hover:text-[#525252] cursor-pointer font-semibold"
+              >Twitter</a
+            >
+          </li>
+          <li class="w-full flex justify-center mb-3 text-center list-none">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="w-[90%] h-11 flex justify-center bg-[#525252] rounded-md items-center hover:bg-[#c9f757] hover:text-[#525252] cursor-pointer font-semibold"
+              >Instagram</a
+            >
+          </li>
+        </ul>
+      </section>
     </main>
-    <div class="attribution">
+    <div
+      class="flex items-center justify-center absolute p-5 m-2 bottom-2 text-[#6d28d9] text-sm"
+    >
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        class="text-white"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Samar Osman</a>.
+      >. Coded by <a href="#" class="text-white">Samar Osman</a>.
     </div>
   </body>
 </html>

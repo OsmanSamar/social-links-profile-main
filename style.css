@@ -1,12 +1,12 @@
 :root {
-  --green: hsl(75, 94%, 57%);
+  --green: hsl(75, 94%, 57%); /* #c9f757 */
   --white: hsl(0, 0%, 100%);
   --grey: hsl(0, 0%, 20%);
   --dark-grey: hsl(0, 0%, 12%);
   --off-black: hsl(0, 0%, 8%);
 }
 
-* {
+/** {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -125,4 +125,4 @@ a:hover {
   position: absolute;
   bottom: 0;
   color: hsl(228, 45%, 44%);
-}
+}*/
